@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 12.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Package", "Package", "{8E7ED212-B2BF-4973-B93C-16C3BE1450B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Umdf", "Umdf", "{89A4DA3C-5522-4305-B601-E358BD8DDD8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kmdf", "Kmdf", "{18C03148-D71B-452B-94DC-9E5CBDA0FEEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exe", "Exe", "{6958D96A-C187-44C6-92F0-AD9AA927B71D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "package", "Package\package.VcxProj", "{B39935ED-D151-4FCB-8C54-BF4000007BEF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "umdf1394vdev", "umdf\umdf1394vdev.vcxproj", "{80769EF8-948B-449F-BF6F-00773CA5B287}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WDF1394", "exe\WDF1394.vcxproj", "{76243425-D9B8-4955-A312-0E5D5D714082}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kmdf1394vdev", "kmdf\kmdf1394vdev\kmdf1394vdev.vcxproj", "{F311CCFE-0C11-4554-A61C-850E2B3E02E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B39935ED-D151-4FCB-8C54-BF4000007BEF}.Debug|x64.ActiveCfg = Debug|x64
+		{B39935ED-D151-4FCB-8C54-BF4000007BEF}.Debug|x64.Build.0 = Debug|x64
+		{B39935ED-D151-4FCB-8C54-BF4000007BEF}.Release|x64.ActiveCfg = Release|x64
+		{B39935ED-D151-4FCB-8C54-BF4000007BEF}.Release|x64.Build.0 = Release|x64
+		{80769EF8-948B-449F-BF6F-00773CA5B287}.Debug|x64.ActiveCfg = Debug|x64
+		{80769EF8-948B-449F-BF6F-00773CA5B287}.Debug|x64.Build.0 = Debug|x64
+		{80769EF8-948B-449F-BF6F-00773CA5B287}.Release|x64.ActiveCfg = Release|x64
+		{80769EF8-948B-449F-BF6F-00773CA5B287}.Release|x64.Build.0 = Release|x64
+		{76243425-D9B8-4955-A312-0E5D5D714082}.Debug|x64.ActiveCfg = Debug|x64
+		{76243425-D9B8-4955-A312-0E5D5D714082}.Debug|x64.Build.0 = Debug|x64
+		{76243425-D9B8-4955-A312-0E5D5D714082}.Release|x64.ActiveCfg = Release|x64
+		{76243425-D9B8-4955-A312-0E5D5D714082}.Release|x64.Build.0 = Release|x64
+		{F311CCFE-0C11-4554-A61C-850E2B3E02E5}.Debug|x64.ActiveCfg = Debug|x64
+		{F311CCFE-0C11-4554-A61C-850E2B3E02E5}.Debug|x64.Build.0 = Debug|x64
+		{F311CCFE-0C11-4554-A61C-850E2B3E02E5}.Release|x64.ActiveCfg = Release|x64
+		{F311CCFE-0C11-4554-A61C-850E2B3E02E5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B39935ED-D151-4FCB-8C54-BF4000007BEF} = {8E7ED212-B2BF-4973-B93C-16C3BE1450B8}
+		{80769EF8-948B-449F-BF6F-00773CA5B287} = {89A4DA3C-5522-4305-B601-E358BD8DDD8A}
+		{76243425-D9B8-4955-A312-0E5D5D714082} = {6958D96A-C187-44C6-92F0-AD9AA927B71D}
+		{F311CCFE-0C11-4554-A61C-850E2B3E02E5} = {18C03148-D71B-452B-94DC-9E5CBDA0FEEB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFD677CD-84B0-4588-9E67-C113DCF2DE2D}
+	EndGlobalSection
+EndGlobal
